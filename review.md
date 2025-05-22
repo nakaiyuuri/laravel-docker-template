@@ -6,7 +6,7 @@
 * SELECT * FROM todos;
 
 ### Todoモデルのallメソッドの返り値は何か
-* Illuminate/Database/Eloquent/Collectionクラスのインスタンス
+* Illuminate\Database\Eloquent\Collectionクラスのインスタンス
 
 ### 配列の代わりにCollectionクラスを使用するメリットは
 * Collectionクラスのメソッドを使用するだけで配列操作をすることができる。
@@ -17,7 +17,7 @@
 * bladeファイルの変数に値を渡し、HTMLを返している。
 
 ### index.blade.phpの$todos・$todoに代入されているものは何か
-* $todosにはIlluminate/Database/Eloquent/Collectionクラスのインスタンス、$todoにはTodoモデルが代入されている。
+* $todosにはIlluminate\Database\Eloquent\Collectionクラスのインスタンス、$todoにはTodoモデルが代入されている。
 
 ## Todo作成機能
 
