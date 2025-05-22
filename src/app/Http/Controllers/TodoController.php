@@ -6,8 +6,6 @@ use Illuminate\Http\Request;
 
 use App\Todo;
 
-use Illuminate\Http\Requests;
-
 class TodoController extends Controller
 {
     public function index()
